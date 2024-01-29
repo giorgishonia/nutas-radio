@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./covers/nutas tavi.png">
+    <title>nutas radiotavi</title>
+</head>
+<body>
+   <div id="welcome-screen" class="welcome-screen">
+        <p class="welcome-text">Welcome to NUTAS 📻თავი</p>
+    </div>
+
+    <div id="music-player" class="music-player">
+        <p>NUTAS RADIOTAVI</p>
+        <div id="cover-container" class="cover-container">
+            <img id="cover-image" class="cover-image" src="./covers/karma police.jpg" alt="Album Cover">
+        </div>
+        <audio id="audio-player" class="audio-player" controls>
+            <source src="#" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <div id="navigation-controls" class="navigation-controls">
+            <!-- Add navigation controls (play, pause, next, previous, etc.) here -->
+        </div>
+        <div id="playlist" class="playlist">
+            <ul id="song-list" class="song-list">
+                <li data-index="0" class="playlist-item" data-image="./covers/let_down.jpg">
+                    <img src="./covers/karma police.jpg" alt="Let Down Cover">
+                    Let Down
+                </li>
+                <li data-index="1" class="playlist-item" data-image="./covers/creep.jpg">
+                    <img src="./covers/creep.png" alt="Creep Cover">
+                    Creep
+                </li>
+                <li data-index="2" class="playlist-item" data-image="./covers/a_wolf_at_the_door.jpg">
+                    <img src="./covers/a3503294240_65.jpg" alt="A Wolf at the Door Cover">
+                    A Wolf at the Door
+                </li>
+                <li data-index="3" class="playlist-item" data-image="./covers/knives_out.jpg">
+                    <img src="./covers/Radiohead_knivesout.jpg" alt="Knives Out Cover">
+                    Knives Out
+                </li>
+                <li data-index="4" class="playlist-item" data-image="./covers/you_and_whose_army.jpg">
+                    <img src="./covers/Radioheadamnesiac.webp" alt="You and Whose Army Cover">
+                    You and Whose Army
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
